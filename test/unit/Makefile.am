@@ -159,7 +159,8 @@ check_PROGRAMS += \
 	cxx_test_shmem_bitwise_reduce \
 	cxx_test_shmem_max_min_reduce \
 	cxx_test_shmem_sum_prod_reduce \
-	cxx_shmem_test_all
+	cxx_shmem_test_all \
+	cxx_multiplexing
 endif
 
 if HAVE_FORTRAN
@@ -281,3 +282,4 @@ cxx_test_shmem_test_SOURCES = cxx_test_shmem_test.cpp
 cxx_test_shmem_bitwise_reduce_SOURCES = cxx_test_shmem_bitwise_reduce.cpp
 cxx_test_shmem_max_min_reduce_SOURCES = cxx_test_shmem_max_min_reduce.cpp
 cxx_test_shmem_sum_prod_reduce_SOURCES = cxx_test_shmem_sum_prod_reduce.cpp
+cxx_multiplexing_SOURCES = cxx_multiplexing.cpp
